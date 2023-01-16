@@ -1,0 +1,54 @@
+/* CSS Reset */
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Ubuntu:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+header {
+    background-color: #433737;
+}
+
+header nav h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: yellowgreen;
+
+}
+
+/* nav {
+    position: fixed;
+    top: 0;
+} */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 1.2rem;
+    color: yellowgreen;
+}
+
+nav ul li:hover {
+    border-bottom: 1px solid yellowgreen;
+}
