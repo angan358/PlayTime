@@ -13,6 +13,10 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
+body {
+    background: #bed1e0;
+}
+
 
 header {
     background-color: #433737;
